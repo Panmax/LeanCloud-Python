@@ -5,7 +5,7 @@ from flask import Flask
 __author__ = 'pan'
 
 
-def create_app(config_name):
+def create_app():
     app = Flask(__name__)
 
     return app
